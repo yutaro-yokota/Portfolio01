@@ -1,0 +1,1087 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap');
+
+
+* {
+  line-height: 1.75;
+  font-family: "Noto Sans jp";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration:none;
+}
+
+a:hover {
+  opacity: .6;
+}
+
+.btn--apply-for-admission {
+  width: 360px;
+  height: 75px;
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+  background: linear-gradient(90deg,#0271e0 0%, #53a2f0 100%);
+  border-radius: 37.5px;
+  line-height: 2.9;
+  text-align: center;
+  display: block;
+  padding-left: 20px;
+}
+
+.text-text__container_menu_btn {
+  width: 282px;
+  height: 61px;
+  font-size: 20px;
+  border-radius: 30px;
+  padding: 0;
+}
+
+.sp {
+  display: none;
+}
+
+.pc {
+  display: block;
+}
+
+/* ヘッダー */
+
+.text-text {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.text-text__container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px 29px 20px 11px;
+}
+
+
+.text-text__container_logo {
+  padding-top: 7px;
+}
+
+.text-text__container_menu {
+  display: flex;
+}
+
+.text-text__container_menu_jump {
+  display: flex;
+  margin: auto 0 auto 0;
+  justify-content: space-between;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.text-text__container_menu_jump li {flex: 1 1 auto;font-weight: 500;font-size: 20px;color: #333;margin-right: 49px;white-space: nowrap;}
+
+.text-text__container_menu_jump li a {
+  color: #333;
+}
+/* メインコンテンツ */
+/* メインビジュアル */
+.mv {
+  background-image: url(../images/mv_pc.jpg);
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+  margin: 66px auto 0;
+}
+
+.mv__container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.mv__container_achievement {
+  position: relative;
+  display: flex;
+  padding: 107px 0 0 50px;
+}
+
+.mv__container_achievement_text01 {
+  font-weight: normal;
+  font-size: 20px;
+  color: #333;
+  padding: 5px 20px 0 20px;
+}
+
+.mv__container_achievement_text02 {font-family: Poppins;font-weight: bold;font-style: italic;font-size: 54px;text-align: left;color: #f11f8d;position: absolute;bottom: -3px;left: 159px;}
+
+.mv__container_achievement_text02-no {
+  font-size: 74px;
+  font-family: Poppins;
+}
+.mv__container_text {
+  font-weight: normal;
+  font-size: 33px;
+  color: #333;
+  padding: 28px 0 0 50px;
+}
+
+.mv__container_title {
+  font-weight: 900;
+  font-size: 60px;
+  text-align: left;
+  color: #005bac;
+  line-height: 1.4;
+  padding-left: 50px;
+}
+
+.mv__list {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 105px;
+  justify-content: center;
+}
+
+.mv__list_item {
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+  width: 340px;
+  height: 75px;
+  border-radius: 37.5px;
+ 
+  text-align: center;
+  line-height: 2.9;
+}
+
+.mv__list_item:first-child {
+   background: #77cb33;
+}
+
+.mv__list_item:nth-child(2) {
+   background: #f6aa00;
+}
+
+.mv__list_item:nth-child(3) {
+   background: #3ac8ad;
+}
+
+.mv__list_item a {
+  color: #fff;
+}
+/*テキスト3テキスト */
+
+.reasons-choose {
+  margin-bottom: 68px;
+}
+.reasons-choose__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.reasons-choose__title {
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  color: #333;
+  margin-top: 61px;
+}
+
+.reasons-choose__title-attention {
+  font-size: 54px;
+  color: #F11F8D;
+  font-family: Poppins;
+  font-weight: bold;
+}
+
+.reasons-choose__grid {
+  display: grid;
+  margin: 22px 0 0 17px;
+  gap: 46px 2%;
+  grid-template-columns: 49% 48%;
+}
+
+.reasons-choose__point {
+  position: absolute;
+  top: -8px;
+  font-family: Poppins;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 28px;
+  text-align: left;
+  color: #f11f8d;
+}
+
+.reasons-choose__point-no {
+  font-family: Poppins;
+  font-size: 42px;
+  padding-left: 7px;
+}
+
+.reasons-choose__point-number {
+  font-size: 42px;
+  font-family: "Poppins";
+  margin-left: 7px;
+}
+
+.reasons-choose__item:nth-child(3) {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.reasons-choose__item:nth-child(4) {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+  padding-right: 12px;
+}
+
+.reasons-choose__item:nth-child(odd) >img {
+  width: 98%;
+}
+
+.reasons-choose__item:nth-child(even) {
+  position: relative;
+}
+
+.reasons-choose__text01 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #333;
+  vertical-align: top;
+  margin-top: 57px;
+  margin-bottom: 13px;
+}
+
+.reasons-choose__text02 {
+  width: 100%;
+}
+/* テキス・スト */
+
+.purpose__container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.purpose__title {
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  color: #333;
+  margin: 68px 0 25px;
+}
+
+.tabs__list {
+  display: flex;
+  width: 96.7%;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  color: #333;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.tabs__content {
+  width: 96.7%;
+  margin: 0px auto 69px;
+  border-radius: 0px 0px 12px 12px;
+  background: #f2f9ff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 29px;
+  padding-bottom: 18px;
+}
+
+.tabs__item {
+  width: 48.5%;
+  border-radius: 12px 12px 0px 0px;
+  background: #f2f9ff;
+  padding: 20px 0;
+}
+
+.tabs__item:hover,
+.tabs__item2:hover {
+  cursor: pointer;
+}
+
+.tabs__item:nth-child(2) {
+  border-radius: 12px 12px 0px 0px;
+  background: #f0f0f0;
+  font-weight: bold;
+  font-size: 24px;
+  color: #333;
+  opacity: 0.5;
+}
+
+.tabs__item2 {
+  width: 48.5%;
+  border-radius: 12px 12px 0px 0px;
+  background: #f2f9ff;
+  padding: 20px 0;
+}
+
+.tabs__item2:nth-child(1) {
+  border-radius: 12px 12px 0px 0px;
+  background: #f0f0f0;
+  font-weight: bold;
+  font-size: 24px;
+  color: #333;
+  opacity: 0.5;
+}
+
+.tabs__pane {
+  width: 100%;
+  margin: auto;
+}
+
+
+.tabs__box {
+  overflow: hidden;
+  width: 94%;
+  border-radius: 13px;
+  margin: 28px 0 14px;
+}
+
+.tabs__pane:nth-child(odd) .tabs__box {
+  margin-left: auto;
+}
+
+.tabs__pane .tabs__box > img {
+  width: 100%;
+}
+
+.tabs__detail {
+  display: flex;
+  position: relative;
+}
+
+.tabs__icon {
+  position: absolute;
+  top: 9px;
+}
+
+.tabs__description {
+  font-weight: bold;
+  font-size: 20px;
+  color: #333;
+  margin: 0 0 8px 29px;
+}
+
+.tabs__pane:nth-child(odd) .tabs__description {
+  margin-left: 60px;
+}
+
+.tabs__pane:nth-child(odd) .tabs__icon {
+  left: 30px;
+}
+
+.purpose__select {
+  display: none;
+}
+
+/* テキストテキストテキ */
+.enrollment {
+  background: #ffeded;
+  padding: 55px 0 52px;
+  margin: auto;
+}
+
+.enrollment__text {
+  text-align: center;
+  font-weight: normal;
+  font-size: 16px;
+  color: #333;
+}
+
+.enrollment__link {
+  margin: 19px auto 0;
+}
+
+
+/* テキ */
+.cost__title {
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  color: #333;
+  margin: 72px 0 27px;
+}
+
+.cost__table {
+  width: 600px;
+  height: 545px;
+  background: #fff;
+  border: 3px solid #ccc;
+  margin: 0 auto 70px;
+  border-collapse: collapse;
+}
+
+.cost__header {
+  font-weight: normal;
+  font-size: 18px;
+  text-align: center;
+  color: #333;
+  background: #f5f5f5;
+  border: 1px solid #ccc;
+  height: 76px;
+}
+
+.cost__data {
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.cost__col-left {
+  width: 143px;
+}
+
+.cost__col-right {
+  width: calc(100% - 143px);
+}
+
+.cost__yen {
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+  color: #f23397;
+  border: 1px solid #ccc;
+}
+
+.cost__yen span {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+tr {
+  height: 77px;
+}
+
+/* フッダー */
+.footer__item {
+  width: 100%;
+  padding: 135px 0 130px;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+  color: #fff;
+  background-size: cover;
+  overflow: hidden;
+  display: block;
+}
+
+.footer__item:first-child {
+  background-image: url(../images/footer_qa.jpg);
+}
+
+.footer__box:nth-child(2) .footer__item {
+  background-image: url(../images/footer_classrooms.jpg);
+}
+
+.footer__item a {
+  color: #fff;
+  
+}
+
+.footer__box {
+   width: 100%;
+   overflow: hidden;
+}
+
+.footer__list {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.footer__copyright {
+  text-align: center;
+  display: block;
+  padding: 45px 0;
+  font-size: 13px;
+  font-family: Poppins;
+  background: #ddd;
+}
+
+
+@media (max-width: 767px) {
+
+  * {
+    line-height: 1.75;
+    font-family: "Noto Sans jp";
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration:none
+  }
+  
+  .btn--apply-for-admission {
+    width: 80.9vw;
+    height: 18vw;
+    font-weight: bold;
+    font-size: 5.4vw;
+    color: #fff;
+    background: linear-gradient(90deg,#0271e0 0%, #53a2f0 100%);
+    border-radius: 37.5px;
+    line-height: 3.4;
+    text-align: center;
+    display: block;
+    padding-left: 0vw;
+  }
+  
+  .text-text__container_menu_btn {
+    width: 282px;
+    height: 61px;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 0;
+  }
+
+  .sp {
+    display: block;
+  }
+
+  .pc {
+    display: none;
+  }
+  
+  /* ヘッダー */
+  
+  .text-text {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+  .text-text__container {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 5.3vw 0 3vw 4vw;
+    position: relative;
+  }
+
+  .text-text__ham {
+    width: 19vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .text-text__ham:hover {
+    cursor: pointer;
+  }
+  
+  .text-text__container_logo {
+    width: 45vw;
+    padding: 0;
+  }
+  
+  .text-text__container_menu {
+    display: none;
+  }
+
+  .drawer {
+    display: none;
+    width: 100%;
+    height: 88.2vw;
+    background: #005bac;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+  }
+  
+  .text-text__container_menu_jump {
+    display: flex;
+    margin: 0 auto 0;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 90%;
+  }
+  
+  .text-text__container_menu_jump li {font-weight: 500;font-size: 4.8vw;color: #333;margin-right: 0vw;white-space: nowrap;padding: 4.7vw 0 4.5vw 7vw;border-bottom: 1px solid rgba(255, 255, 255, 0.5);position: relative;}
+
+  .text-text__container_menu_jump li:last-child a {
+    letter-spacing: .3em;
+  }
+  .text-text__container_menu_jump li a {
+    color: #fff;
+  }
+
+  .drawer__arrow {
+    width: 4vw;
+    position: absolute;
+    left: 0;
+    top: 7vw;
+  }
+
+  .drawer__btn {
+    width: 93vw;
+    height: 18vw;
+    border-radius: 9vw;
+    background: #fff;
+    font-weight: bold;
+    font-size: 4.8vw;
+    text-align: center;
+    color: #005bac;
+    display: block;
+    margin: 8.4vw auto 0;
+    padding-top: 5vw;
+  }
+  /* メインコンテンツ */
+  /* メインビジュアル */
+  .mv {
+    background-image: url(../images/mv_sp.jpg);
+    margin-top: 19vw;
+    position: relative;
+    width: 100%;
+    background-size: contain;
+  }
+  
+  .mv__container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .mv__container_achievement {
+    position: relative;
+    display: flex;
+    padding: 9vw 0 0 3.8vw;
+  }
+  
+  .mv__container_achievement_text01 {
+    font-weight: normal;
+    font-size: 3vw;
+    color: #333;
+    padding: 0 0 0 1vw;
+  }
+
+  .mv__container_achievement_frame-left,
+  .mv__container_achievement_frame-right {
+    width: 6%;
+  }
+  
+  .mv__container_achievement_text02 {
+    top: 12vw;
+    left: 16.4vw;
+    font-size: 6.8vw;
+    bottom: 0;
+  }
+
+  .mv__container_achievement_text02-no {
+    font-size: 9.7vw;
+  }
+  
+  
+  .mv__container_text {
+    font-weight: normal;
+    font-size: 3.8vw;
+    color: #333;
+    padding: 6.5vw 0 0 4vw;
+  }
+  
+  .mv__container_title {
+    font-weight: 900;
+    font-size: 6.7vw;
+    text-align: left;
+    color: #005bac;
+    padding-left: 4.1vw;
+  }
+  
+  .mv__list {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vw;
+    margin-top: 15.8vw;
+    justify-content: center;
+  }
+  
+  .mv__list_item {
+    font-weight: bold;
+    font-size: 4.2vw;
+    color: #fff;
+    width: 67vw;
+    height: 13vw;
+    border-radius: 37.5px;
+    text-align: center;
+    line-height: 2.9;
+  }
+  
+  .mv__list_item:first-child {
+     background: #77cb33;
+  }
+  
+  .mv__list_item:nth-child(2) {
+     background: #f6aa00;
+  }
+  
+  .mv__list_item:nth-child(3) {
+     background: #3ac8ad;
+  }
+  
+  .mv__list_item a {
+    color: #fff;
+  }
+  /*テキスト3テキスト */
+  
+  .reasons-choose {
+    margin-bottom: 0.9vw;
+  }
+  .reasons-choose__container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .reasons-choose__title {
+    font-weight: bold;
+    font-size: 7.3vw;
+    text-align: center;
+    color: #333;
+    margin-top: 4.4vw;
+  }
+  
+  .reasons-choose__title-attention {
+    font-size: 10.7vw;
+    color: #F11F8D;
+    font-family: "Poppins";
+    font-weight: bold;
+  }
+  
+  .reasons-choose__grid {
+    display: flex;
+    margin: 2.5vw auto 0;
+    gap: 0;
+    flex-direction: column;
+    width: 92%;
+  }
+  
+  .reasons-choose__point {
+    position: absolute;
+    top: -2.1vw;
+    font-size: 6.5vw;
+  }
+
+  .reasons-choose__point-no {
+    font-size: 10vw;
+    padding-left: 2vw;
+  }
+  
+  .reasons-choose__point-number {
+    font-size: 42px;
+    font-family: "Poppins";
+    margin-left: 7px;
+  }
+  
+
+  
+  .reasons-choose__item:nth-child(4) {
+    grid-column: none;
+    grid-row: none;
+    padding-right: 0;
+  }
+  
+  .reasons-choose__item:nth-child(odd) >img {
+    width: 100%;
+  }
+  
+  .reasons-choose__item:nth-child(even) {
+    position: relative;
+    margin-top: 2.1vw;
+  }
+
+  
+  .reasons-choose__text01 {
+    font-weight: bold;
+    font-size: 5.4vw;
+    color: #333;
+    vertical-align: top;
+    margin-top: 13.6vw;
+    margin-bottom: 2.3vw;
+    line-height: 1.5;
+  }
+  
+  .reasons-choose__text02 {
+    width: 100%;
+    margin-bottom: 8.2vw;
+  }
+  /* テキス・スト */
+  
+  .purpose__container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .purpose__title {
+    font-weight: bold;
+    font-size: 7.5vw;
+    text-align: center;
+    color: #333;
+    margin: 16vw 0 5vw 4vw;
+  }
+  
+  .tabs__list {
+    display: flex;
+    width: 92.2%;
+    font-weight: bold;
+    font-size: 4.8vw;
+    text-align: center;
+    color: #333;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+  }
+  
+  .tabs__content {
+    width: 100%;
+    margin: 0 auto 18vw;
+    border-radius: 0;
+    background: #f2f9ff;
+    display: flex;
+    gap: 0;
+    justify-content: center;
+    padding-bottom: 12.2vw;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .tabs__box {
+    margin: 8vw auto 0vw;
+    width: 91vw;
+  }
+
+  .tabs__pane:nth-child(n+2) .tabs__box {
+    margin-top: 5.8vw;
+  }
+  
+  .tabs__item {
+    width: 47.6%;
+    border-radius: 12px 12px 0px 0px;
+    background: #f2f9ff;
+    padding: 4vw 0;
+  }
+  
+  .tabs__item:nth-child(2) {
+    border-radius: 12px 12px 0px 0px;
+    background: #f0f0f0;
+    font-weight: bold;
+    color: #333;
+    opacity: 0.5;
+    font-size: 4.8vw;
+  }
+
+  .tabs__item2 {
+    width: 47.6%;
+    border-radius: 12px 12px 0px 0px;
+    background: #f2f9ff;
+    padding: 4vw 0;
+  }
+  
+  .tabs__item2:nth-child(1) {
+    border-radius: 12px 12px 0px 0px;
+    background: #f0f0f0;
+    font-weight: bold;
+    color: #333;
+    opacity: 0.5;
+    font-size: 4.8vw;
+  }
+  
+  .tabs__pane {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tabs__content .tabs__pane:nth-child(3) > img {
+    margin-top: 5vw;
+  }
+  
+  .tabs__pane:nth-child(odd) > img {
+  width: 92%;
+  margin: 8vw auto 0;
+  }
+  
+  .tabs__pane > img {
+    width: 92%;
+    margin: 5vw auto 0;
+    border-radius: 3vw;
+  }
+  
+  .tabs__detail {
+    display: flex;
+    position: relative;
+    width: 91%;
+    margin: 2.4vw auto 0;
+  }
+  
+  .tabs__icon {
+    position: absolute;
+    top: 2.7vw;
+    width: 3.9vw;
+  }
+  
+  .tabs__description {
+    font-weight: bold;
+    font-size: 5.4vw;
+    color: #333;
+    margin: 0 0 1vw 6vw;
+  }
+  
+  .tabs__pane:nth-child(odd) .tabs__description {
+    margin-left: 5.6vw;
+  }
+  
+  .tabs__pane:nth-child(odd) .tabs__icon {
+    left: 0vw;
+    width: 3.9vw;
+  }
+  
+  .purpose__select {
+    display: none;
+  }
+  
+  /* テキストテキストテキ */
+  .enrollment {
+    background: #ffeded;
+    padding: 0vw 0 10.8vw;
+    margin: auto;
+  }
+  
+  .enrollment__text {
+    text-align: center;
+    font-weight: normal;
+    font-size: 4.2vw;
+    color: #333;
+    padding: 9.8vw 11vw 0;
+  }
+  
+  .enrollment__link {
+    margin: 3vw auto 0;
+  }
+  
+  
+  /* テキ */
+  .cost__title {
+    font-weight: bold;
+    font-size: 8.1vw;
+    text-align: center;
+    color: #333;
+    margin: 15.8vw 0 3.3vw 5vw;
+    letter-spacing: .1em;
+  }
+  
+  .cost__table {
+    width: 92%;
+    height: auto;
+    background: #fff;
+    border: 0.9vw solid #ccc;
+    margin: 0 auto 17.3vw;
+    border-collapse: collapse;
+  }
+  
+  .cost__header {
+    font-weight: normal;
+    font-size: 4.1vw;
+    text-align: center;
+    color: #333;
+    background: #f5f5f5;
+    border: none;
+    height: 18vw;
+  }
+
+  .cost__header:nth-child(2) {
+    padding-right: 6.5vw;
+  }
+  
+  .cost__data {
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .cost__col-left {
+    width: 31vw;
+  }
+  
+  .cost__col-right {
+    width: calc(100% - 31vw);
+  }
+  
+  .cost__yen {
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 7.5vw;
+    text-align: center;
+    color: #f23397;
+    border: 1px solid #ccc;
+    letter-spacing: .02em;
+  }
+  
+  .cost__yen span {
+    font-size: 4.5vw;
+    font-weight: normal;
+    padding-right: 1.7vw;
+  }
+  
+  tr {
+    height: 17vw;
+  }
+
+  tr:last-child .cost__yen {
+    padding-left: 6.4vw;
+  }
+  
+  /* フッダー */
+  .footer__item {
+    width: 100%;
+    padding: 17vw 0 18vw 4vw;
+    font-weight: bold;
+    font-size: 5.9vw;
+    text-align: left;
+    color: #fff;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.16);
+  }
+  
+  .footer__item:first-child {
+    background-image: url(../images/footer_qa_sp.jpg);
+  }
+  
+  .footer__box:nth-child(2) .footer__item {
+    background-image: url(../images/footer_classrooms_sp.jpg);
+  }
+  
+  .footer__item a {
+    color: #fff;
+  }
+  
+  .footer__list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer__copyright {
+    text-align: center;
+    display: block;
+    padding: 8vw 0 8vw 4vw;
+    font-size: 3.5vw;
+  }
+  
+}

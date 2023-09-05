@@ -1,0 +1,2302 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Permanent+Marker&display=swap');
+
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,*::before,*::after{box-sizing:border-box}*{margin:0}html,body{height:100%}body{line-height:1.5;-webkit-font-smoothing:antialiased}img,picture,video,canvas,svg{display:block;}input,button,textarea,select{font:inherit}p,h1,h2,h3,h4,h5,h6{overflow-wrap:break-word}#root,#__next{isolation:isolate}
+
+/* 共通 ここから
+---------------------------------------------------------*/
+* {
+  font-family: "メイリオ";
+}
+
+.pc {
+  display: block;
+}
+
+.sp {
+  display: none;
+}
+
+.br-sp {
+  display: none;
+}
+
+.br-pc {
+  display: block;
+}
+
+.container {
+  max-width: 1120px;
+}
+
+.gaze {
+  color: #F1EC67;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+main {
+  overflow: hidden;
+}
+
+/* ヘッダー
+---------------------------------------------------------*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 30px auto 0;
+  position: relative;
+  z-index: 10;
+}
+
+.header__btn01 {
+  width: 98%;
+}
+
+
+/* メインコンテンツ
+---------------------------------------------------------*/
+
+.mv {
+  background-image: url(../images/mv-group.jpg);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 1317px;
+  background-size: cover;
+}
+
+.mv__container {
+  margin-top: 126px;
+}
+
+.mv__payment-group {
+  width: 29%;
+  margin-left: 15%;
+  min-width: 503px;
+}
+.mv__payment {width: 84%;position: relative;z-index: 10;}
+
+.mv__payment-group-img {display: inline-block;}
+.mv__car01 {
+  position: absolute;
+  right: 18%;
+  top: 103px;
+}
+
+.mv__btn02 {
+  width: 121%;
+  position: relative;
+  top: -46px;
+  z-index: 10;
+}
+
+/* テキストテテキス？
+---------------------------------------------------------*/
+
+.car-lease01 {
+  width: 70%;
+  height: 825.12px;
+  background:repeating-linear-gradient(-135deg,#3FA8B9,#3FA8B9 5%,transparent 0, transparent 10%) #39a5b7;
+  border: 18px solid rgba(255, 255, 255, 0.39);
+  box-shadow: 0px 0px 61px rgba(0, 88, 91, 0.29);
+  position: relative;
+  max-width: 1365px;
+  margin: 782px auto 0;
+}
+
+.car-lease01__header {
+  width: 100%;
+  height: 112.01px;
+  background: #000;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+  color: #fff;
+  line-height: 2.5;
+}
+
+.car-lease01__title-min {
+  font-size: 24.1px;
+}
+
+.car-lease01__text01 {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  width: 510px;
+  margin: 56px auto 41px;
+}
+
+.car-lease01__text02 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.9;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+}
+
+.car-lease02__human {
+  bottom: 0;
+  position: absolute;
+  left: 10%;
+  width: 80%;
+}
+
+.car-lease02__btn {
+  margin: 473px auto 0;
+  margin-right: 28%;
+  width: 57%;
+}
+
+/* テキストテス３つス特徴
+---------------------------------------------------------*/
+
+.car-lease02__title {
+  font-weight: bold;
+  font-size: 42px;
+  text-align: center;
+  color: #000;
+  margin: 345px auto 32px;
+}
+
+.car-lease02__container01,
+.car-lease02__container02,
+.car-lease02__container03 {
+  max-width: 1120px;
+  position: relative;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+.car-lease02__box01 {
+  width: 94%;
+  height: 735px;
+  background:repeating-linear-gradient(-135deg,#32B9B4,#32B9B4 5%,transparent 0, transparent 10%) #2BB7B2;
+  margin: 0 auto;
+}
+
+.car-lease02__01,
+.car-lease02__02,
+.car-lease02__03 {
+  position: absolute;
+  top: -100px;
+  left: 1%;
+}
+
+.car-lease02__text01 {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 3px;
+}
+
+.car-lease02__text02 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.7;
+  text-align: center;
+  color: #fff;
+}
+
+
+.car-lease02__text03 {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 64px;
+  padding-top: 58px;
+}
+
+.car-lease02__text04 {
+  width: 394px;
+  height: 47px;
+  background: #000;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+  line-height: 2.5;
+}
+
+.car-lease02__car01 {
+  position: absolute;
+  bottom: 63px;
+  left: 31%;
+}
+
+.car-lease02__signboard01 {
+  position: absolute;
+  bottom: 147px;
+  left: 65%;
+}
+
+.car-lease02__box02 {
+  width: 94%;
+  height: 1164px;
+  background:repeating-linear-gradient(-135deg,#50A4C4,#50A4C4 5%,transparent 0, transparent 10%) #4AA1C2;
+  margin: 84px auto 93px;
+}
+
+.car-lease02__box02-text01 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.6;
+  text-align: center;
+  color: #fff;
+  padding: 73px 0 0;
+}
+
+.car-lease02__box02-img01,
+.car-lease02__box02-img02,
+.car-lease02__box02-img03 {
+  position: absolute;
+  top: 238px;
+}
+
+.car-lease02__box02-img01 {
+  left: 10%;
+  width: 34%;
+}
+
+.car-lease02__box02-img02 {
+  left: 46%;
+  top: 317px;
+  width: 2%;
+}
+
+.car-lease02__box02-img03 {
+  left: 52%;
+  width: 36%;
+}
+
+.car-lease02__box02-text02 {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 1.6;
+  text-align: center;
+  color: #fff;
+  width: 425px;
+  margin: 343px auto 0;
+}
+
+.car-lease02__box02-text03 {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 1.6;
+  text-align: center;
+  color: #fff;
+}
+
+.car-lease02__box02-purchase-btn {
+  width: 100%;
+  height: 47px;
+  background: transparent;
+  border: 1px solid #fff;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  display: block;
+  line-height: 2.4;
+}
+
+.car-lease02__box02-mylease-btn {
+  width: 100%;
+  height: 47px;
+  background: #014ab0;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  display: block;
+  line-height: 2.5;
+}
+
+.car-lease02__box02-purchase-set,
+.car-lease02__box02-mylease-set {
+  width: 35%;
+}
+
+.car-lease02__box02-purchase-and-mylease {
+  display: flex;
+  justify-content: center;
+  gap: 4%;
+  margin-top: 53px;
+}
+
+.car-lease02__box02-purchase-img,
+.car-lease02__box02-mylease-img {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.car-lease02__box03 {
+  width: 94%;
+  height: 901px;
+  background:repeating-linear-gradient(-135deg,#3FA8B9,#3FA8B9 5%,transparent 0, transparent 10%) #39A5B7;
+  margin: 84px auto 162px;
+}
+
+.car-lease02__box03-text01 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.6;
+  text-align: center;
+  color: #fff;
+  padding-top: 76px;
+}
+.car-lease02__box03-text02 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.6;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 46px;
+}
+.car-lease02__box03-text03 {font-weight: bold;font-size: 18px;line-height: 1.6;text-align: center;color: #fff;}
+.car-lease02__box03-group {
+  display: grid;
+  grid-template-columns: 41% 41%;
+  justify-content: center;
+  margin: 51px auto 0;
+  width: 87%;
+  gap: 37px 0;
+}
+.car-lease02__box03-transfer-text,
+.car-lease02__box03-re-lease-text,
+.car-lease02__box03-purchase-text,
+.car-lease02__box03-return-text {
+  width: 100%;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: left;
+  color: #fff;
+  margin-left: 14px;
+  margin-top: 18px;
+}
+
+.car-lease02__box03-transfer-set,
+.car-lease02__box03-re-lease-set,
+.car-lease02__box03-purchase-set,
+.car-lease02__box03-return-set {
+  width: 86%;
+}
+
+.car-lease02__box03-transfer-img,
+.car-lease02__box03-re-lease-img,
+.car-lease02__box03-purchase-img,
+.car-lease02__box03-return-img {
+  width: 100%;
+}
+
+.car-lease02__text-out {
+  font-weight: bold;
+  font-size: 12px;
+  text-align: left;
+  color: #fff;
+  margin: 50px auto 0;
+  width: 68%;
+}
+
+/* テキストテステキストデテキスト
+---------------------------------------------------------*/
+
+.merit-and-demerit__set {
+  display: flex;
+  justify-content: center;
+  gap: 27px;
+  flex-wrap: wrap;
+}
+
+.merit-and-demerit {
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 1.6;
+  text-align: center;
+  color: #000;
+  margin-bottom: 46px;
+}
+
+.merit__text01,
+.demerit__text01 {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  margin: 43px auto 43px;
+  position: relative;
+}
+
+.merit__text01 {
+  width: 144px;
+}
+
+.demerit__text01 {
+  width: 166px;
+}
+
+.merit__border,
+.demerit__border {
+  width: 100%;
+  background-color: #ff656d;
+  height: 12px;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+}
+
+.merit__group {
+  width: 546px;
+  background: #39a5b7;
+  border: 9px solid #2090a4;
+  padding-bottom: 60px;
+}
+
+.demerit__group {
+  width: 546px;
+  background: #779a9f;
+  border: 9px solid #6f9298;
+  padding-bottom: 60px;
+}
+
+
+.merit-check,
+.demerit-check {
+  margin-right: 20px;
+  width: 5%;
+  height: 5%;
+}
+
+.check-mark {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.7;
+  text-align: left;
+  color: #fff;
+  width: 100%;
+}
+
+.merit__text-group,
+.demerit__text-group {
+  display: flex;
+  width: 80%;
+  border-bottom: 1px dotted #fff;
+  align-items: center;
+  padding-bottom: 9px;
+  margin-left: 46px;
+}
+
+.merit__text-group:nth-child(n+2),
+.demerit__text-group:nth-child(n+2) {
+  margin-top: 30px;
+}
+
+
+.merit-and-demerit__btn01 {
+  display: block;
+  margin: 35px auto 0;
+  margin-right: 35%;
+  width: 39%;
+}
+
+/* テキストテキストテス特徴
+---------------------------------------------------------*/
+.feature {
+  max-width: 1120px;
+  margin: auto;
+}
+.feature__title01 {
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 1.2;
+  text-align: center;
+  color: #000;
+  margin-bottom: 56px;
+  margin-top: 227px;
+}
+
+/* 4キステキストテからテキス
+---------------------------------------------------------*/
+
+.feature__title02 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.6;
+  text-align: center;
+  color: #2588bb;
+  width: 100%;
+  height: 134px;
+  background: #fff;
+  border: 4px solid #2588bb;
+  margin: 0 auto 59px;
+  padding-top: 18px;
+}
+
+.feature__attention {
+  color: #FF656D;
+}
+
+.feature__text01 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 1.6;
+  text-align: center;
+  color: #000;
+  width: 53%;
+  margin: auto;
+}
+
+.future__car-img01 {
+  display: block;
+  margin: 66px auto 0;
+}
+
+.feature__text02 {
+  margin-left: 14%;
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+/* テキストテテテキスト！テキステキストテキテキス
+---------------------------------------------------------*/
+
+.feature__title03 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.6;
+  text-align: center;
+  color: #2588bb;
+  width: 100%;
+  height: 90px;
+  background: #fff;
+  border: 4px solid #2588bb;
+  margin: 137px auto 59px;
+  padding-top: 24px;
+}
+
+.feature__text03,
+.feature__text04 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 1.6;
+  text-align: center;
+  color: #000;
+}
+
+.feature__maintenance-pack {
+  display: flex;
+  margin-top: 58px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feature__maintenance-pack-item01,
+.feature__maintenance-pack-item02,
+.feature__maintenance-pack-item03 {
+  width: calc(100% / 3 - 25px)
+}
+
+.feature__text-refueling {
+  font-weight: bold;
+  font-size: 12px;
+  text-align: left;
+  color: #000;
+  margin: 31px 0 87px 1.3%;
+}
+
+/* テキス200店鋪ステキストテキストテストア、...
+---------------------------------------------------------*/
+
+.feature__title04 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.6;
+  text-align: center;
+  color: #2588bb;
+  width: 100%;
+  height: 147px;
+  background: #fff;
+  border: 4px solid #2588bb;
+  margin: 0 auto 79px;
+  padding-top: 26px;
+}
+
+.feature__text05 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.feature__pc-text01,
+.feature__pc-text02 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #2588bb;
+}
+
+.feature__pc-text01 {
+  text-align: right;
+}
+
+.feature__pc-text02 {
+  margin: 34px 0 9px;
+}
+
+.feature__text06 {
+  width: 93%;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.7;
+  text-align: left;
+  color: #fff;
+  padding-top: 28px;
+}
+
+.feature__block01 {
+  width: 97%;
+  background: #2588bb;
+  position: relative;
+  margin: 15px 0 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding-bottom: 80px;
+}
+
+.feature__block02 {
+  width: 98%;
+  height: 344px;
+  background: #0090ae;
+  position: relative;
+}
+
+.feature__block01-img {
+  position: absolute;
+  top: -31px;
+  right: 45%;
+  width: 58%;
+}
+
+.feature__block02-img {
+  position: absolute;
+  top: -24px;
+  right: -3.3%;
+  width: 57%;
+}
+
+.feature__block01-text-set {
+  width: 39%;
+  margin-right: 17px;
+  padding-top: 55px;
+}
+
+.feature__block02-text-set {
+  width: 43%;
+  padding: 48px 0 0px 5%;
+}
+
+/* テキステテキストテ！
+---------------------------------------------------------*/
+.popular-car {
+  width: 100%;
+  height: auto;
+  background: repeating-linear-gradient(-135deg,#F5F5F5,#F5F5F5 4%,transparent 0, transparent 9%) #F7F7F7;
+  margin: 0;
+}
+
+.popular-car-ranking {
+  position: relative;
+  margin: 83px auto 0;
+  max-width: 1281px;
+}
+
+.popular-car-ranking__title {
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 1.6;
+  text-align: center;
+  color: #000;
+  margin-left: 77px;
+  padding-top: 55px;
+}
+
+.popular-car-ranking__crown {
+  position: absolute;
+  top: -28px;
+  display: block;
+  left: 49%;
+}
+
+.popular-car-ranking__btn {
+    width: 57%;
+    margin: 36px 0 0 14%;
+}
+
+
+.swiper {
+  width: 87%;
+  margin-top: 21px;
+}
+
+.swiper-wrapper {
+  position: relative;
+  z-index: 0;
+} 
+.swiper-button-prev {
+  display: block;
+  position: absolute;
+  left: 0%;
+  top: 422px;
+}
+
+.swiper-button-next {
+  display: block;
+  position: absolute;
+  right: 3%;
+  top: 422px;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  display: none;
+}
+
+/* テキスまでテキス
+---------------------------------------------------------*/
+
+.contract {
+  max-width: 768px;
+  margin: auto;
+  padding-top: 114px;
+}
+.contract__title {
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 1.6;
+  text-align: center;
+  color: #000;
+}
+
+.contract__text-group {
+  width: 100%;
+  margin: 0 0 0 14px;
+}
+.contract__text01,
+.contract__text02,
+.contract__text03,
+.contract__text04 {
+  font-weight: bold;
+  font-size: 22px;
+  padding-top: 70px;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.contract__text-set01,
+.contract__text-set02,
+.contract__text-set03,
+.contract__text-set04 {
+  width: 100%;
+  height: 121px;
+  margin: 0 auto;
+  background-size: cover;
+}
+
+.contract__text-set01 {
+  background-image: url(../images/step01.png);
+  position: relative;
+}
+
+.contract__text-set02 {
+  background-image: url(../images/step02.png);
+
+}
+
+.contract__text-set03 {
+  background-image: url(../images/step03.png);
+}
+
+.contract__text-set04 {
+  background-image: url(../images/step04.png);
+}
+
+.step01-speech-bubble {
+  position: absolute;
+  top: 0;
+  right: -4%;
+}
+
+.customer-voice__set {
+  display: flex;
+  justify-content: space-between;
+}
+
+.customer-voice__text-set-title01 {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  color: #fff;
+  width: 130px;
+  height: 28px;
+  background: #b79e3e;
+}
+
+.customer-voice__text-set-title02 {
+  font-weight: bold;
+  font-size: 28px;
+  text-align: left;
+  border-bottom: 3px solid #000;
+  margin: 13px 0 23px;
+}
+
+.customer-voice__text-set01-text {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: left;
+  color: #6d6d6d;
+
+}
+
+.customer-voice__text-reason {
+  width: 100%;
+  border: 5px solid #eee;
+  margin: 30px auto 49px;
+  padding: 34px 26px 39px 44px;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.customer-voice__group {
+  max-width: 800px;
+  margin: auto;
+}
+
+.customer-voice__title {
+  font-weight: bold;
+  font-size: 42px;
+  text-align: center;
+  margin: 135px 0 66px;
+}
+
+.customer-voice__img {
+  width: 41%;
+}
+
+.customer-voice__text-set {
+  margin: 22px 12% 0 0;
+}
+
+.between-lines {
+  padding-bottom: 25px;
+}
+
+.customer-voice__group:nth-child(odd) .customer-voice__set {
+  flex-direction: row-reverse;
+}
+
+.customer-voice__group:nth-child(odd) .customer-voice__text-set {
+  margin: 22px 0 0;
+}
+
+.customer-voice__group:nth-child(n+3) {
+  padding-top: 4px;
+}
+/* テキストテキス
+---------------------------------------------------------*/
+
+.faq {
+  max-width: 800px;
+  margin: auto;
+}
+.faq__title {
+  font-weight: bold;
+  font-size: 42px;
+  text-align: center;
+  color: #000;
+  padding: 111px 0 0px;
+}
+
+.faq__group {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+.faq__Q01-img {
+  margin-top: 37px;
+}
+
+.faq__Q01-text {
+  position: absolute;
+  top: 36px;
+  left: 16%;
+  font-weight: bold;
+  font-size: 20px;
+  color: #000;
+}
+
+.faq__A01-text {
+  position: absolute;
+  left: 15%;
+  line-height: 2;
+  font-size: 16px;
+  padding-right: 19px;
+  font-weight: bold;
+}
+
+.faq__A01-text01 {
+  bottom: 41px;
+}
+
+.faq__A01-text02 {
+  bottom: 30px;
+}
+
+.faq__A01-text03 {
+  bottom: 33px;
+}
+
+.faq__A01-text-center {
+  bottom: 45px;
+}
+/* テキステキストテキストテテキストテキスト
+---------------------------------------------------------*/
+
+.simulate {
+  background-image: url(../images/simulate.jpg);
+  width: 100%;
+  height: 659px;
+  background-size: cover;
+  margin-top: 175px;
+}
+
+.simulate-title {
+  font-weight: bold;
+  font-size: 2.1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.49);
+  padding-top: 207px;
+  padding-bottom: 7px;
+}
+
+.simulate-title::before {
+  content: url(../images/simulate-left.png);
+  padding-right: 8px;
+}
+
+.simulate-title::after {
+ content: url(../images/simulate-right.png); 
+  padding-left: 8px;
+}
+
+.simulate__btn {
+    margin: 0 0 0 27%;
+    width: 38%;
+}
+
+/* リンクボタン
+---------------------------------------------------------*/
+.link-btn {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 61px 0 125px;
+}
+
+/* フッター
+---------------------------------------------------------*/
+
+.footer-log {
+  display: block;
+  margin: 0 auto 0;
+}
+
+.footer-set {
+  display: flex;
+  margin: 71px auto 62px;
+  max-width: 1000px;
+  justify-content: space-around;
+  height: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-set li {
+  border-right: 1px solid #707070;
+  padding-right: 21px;
+}
+
+.footer-set li:last-child {
+  border: none;
+}
+
+.footer-item-mark::after {
+  content: url(../images/footer-mark.png);
+  padding-left: 6px;
+}
+
+.footer-item {font-weight: bold;font-size: 14px;color: #000;}
+
+small {
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  color: #000;
+}
+
+@media (max-width: 750px) {
+
+  /* 共通テここから
+---------------------------------------------------------*/
+
+  .pc {
+    display: none;
+  }
+  
+  .sp {
+    display: block;
+  }
+  
+  .gaze-sp {
+    color: #F1EC67;
+  }
+
+  .br-sp {
+    display: block;
+  }
+
+  .br-pc {
+    display: none;
+  }
+
+  /* ヘッダー
+---------------------------------------------------------*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 93vw;
+  margin: 2.4vw auto;
+}
+
+.header__btn01 {
+  width: 45vw;
+}
+
+.header__logo {
+  width: 36.9vw;
+}
+
+/* メインコンテンツ
+---------------------------------------------------------*/
+
+.mv {
+  background-image: url(../images/topbg-sp.png);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -10;
+  background-size: cover;
+  height: 169vw;
+  /* display: flex; */
+}
+
+.mv__container {
+  margin-top: 20vw;
+}
+
+.mv__payment-group {
+  width: 76vw;
+  margin: 0 3vw 0 9vw;
+  min-width: unset;
+}
+.mv__payment {width: 100%;position: relative;}
+
+.mv__car01 {
+  position: absolute;
+  right: 18%;
+  z-index: -10;
+  top: 103px;
+}
+
+.mv__btn02 {
+  width: 121%;
+  position: relative;
+  top: -46px;
+}
+
+/* テキストテテキス？
+---------------------------------------------------------*/
+
+.car-lease01 {
+  margin: 163.3vw auto 0;
+  width: 94vw;
+  height: auto;
+  background:repeating-linear-gradient(-135deg,#3FA8B9,#3FA8B9 5%,transparent 0, transparent 10%) #39a5b7;
+  border: 2.4vw solid rgba(255, 255, 255, 0.39);
+  box-shadow: 0px 0px 61px rgba(0, 88, 91, 0.29);
+  position: relative;
+  max-width: unset;
+}
+
+.car-lease01__header {
+  width: 100%;
+  height: 15vw;
+  background: #000;
+  font-weight: bold;
+  font-size: 4.1vw;
+  text-align: center;
+  color: #fff;
+  line-height: 2.6;
+  margin-top: 4vw;
+}
+
+.car-lease01__title-min {
+  font-size: 4vw;
+}
+
+.car-lease01__text01 {
+  font-weight: bold;
+  font-size: 5.9vw;
+  text-align: center;
+  color: #fff;
+  width: 74vw;
+  margin: 8.6vw auto 9vw;
+}
+
+.car-lease01__text02 {
+  font-weight: bold;
+  font-size: 3.8vw;
+  line-height: 2;
+  text-align: center;
+  color: #fff;
+  width: 72vw;
+  margin: auto;
+}  
+
+.car-lease02__text02 {
+  font-weight: bold;
+  font-size: 6.1vw;
+  line-height: 1.4;
+  text-align: center;
+  color: #fff;
+  width: 60vw;
+  margin: auto;
+}
+
+.car-lease02__human-sp {
+  position: unset;
+  width: 94%;
+  margin-top: 2.5vw;
+}
+
+.car-lease02__btn-sp {
+  width: 80vw;
+  position: absolute;
+  bottom: -36vw;
+  left: 2vw;
+}
+
+/* テキストテテキス？
+---------------------------------------------------------*/
+
+.car-lease02__title {
+  font-weight: bold;
+  font-size: 6.7vw;
+  text-align: center;
+  color: #000;
+  margin: 51vw auto 13vw;
+  letter-spacing: 0.1em;
+}
+
+.car-lease02__title-sp {
+  font-size: 4.3vw;
+}
+.car-lease02__container01,
+.car-lease02__container02,
+.car-lease02__container03 {
+  max-width: unset;
+  position: relative;
+  margin: auto;
+  height: auto;
+  width: 100%;
+}
+
+.car-lease02__box01 {
+  width: 94%;
+  height: auto;
+  background:repeating-linear-gradient(-135deg,#32B9B4,#32B9B4 5%,transparent 0, transparent 10%) #2BB7B2;
+  margin: 0 auto;
+}
+
+.car-lease02__01,
+.car-lease02__02,
+.car-lease02__03 {
+  position: absolute;
+  top: -10vw;
+  left: 1%;
+  width: 21vw;
+}
+
+.car-lease02__text01 {
+  font-weight: bold;
+  font-size: 6.2vw;
+  text-align: center;
+  padding-top: 17.2vw;
+  padding-bottom: 0;
+}
+
+
+.car-lease02__text03 {
+  font-weight: bold;
+  font-size: 3.5vw;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 12.5vw;
+  padding-top: 5.3vw;
+  width: 80vw;
+  margin: auto;
+  line-height: 1.8;
+}
+
+.car-lease02__text04 {
+  width: 82vw;
+  height: 9.4vw;
+  background: #000;
+  font-weight: bold;
+  font-size: 4.1vw;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+  line-height: 2.6;
+}
+
+.car-lease02__car01 {
+  position: unset;
+  width: 72vw;
+  display: block;
+  margin: 9vw auto 0;
+  padding-bottom: 17vw;
+}
+
+.car-lease02__signboard01 {
+  position: absolute;
+  bottom: 147px;
+  left: 65%;
+}
+
+.car-lease02__signboard01-sp {
+  position: absolute;
+  bottom: 11vw;
+  right: 2.7vw;
+  width: 29.3vw;
+}
+
+.car-lease02__box02 {
+  width: 94%;
+  height: auto;
+  background:repeating-linear-gradient(-135deg,#50A4C4,#50A4C4 5%,transparent 0, transparent 10%) #4AA1C2;
+  margin: 84px auto 93px;
+}
+
+.car-lease02__box02-text01 {
+  font-weight: bold;
+  font-size: 6vw;
+  line-height: 1.6;
+  text-align: center;
+  color: #fff;
+  padding: 18vw 0 0;
+  margin: auto;
+  width: 73vw;
+}
+
+.car-lease02__box02-img01,
+.car-lease02__box02-img02,
+.car-lease02__box02-img03 {
+  position: absolute;
+  top: 59vw;
+}
+
+.car-lease02__box02-img01 {
+  left: 13vw;
+  width: 66.3vw;
+}
+
+.car-lease02__box02-img02 {
+  left: 22.6vw;
+  top: 100.3vw;
+  width: 4vw;
+}
+
+.car-lease02__box02-img03 {
+  left: 13vw;
+  width: 73vw;
+  top: 108vw;
+}
+
+.car-lease02__box02-text02 {
+  font-weight: bold;
+  font-size: 5.5vw;
+  line-height: 1.7;
+  text-align: center;
+  color: #fff;
+  width: 53.9vw;
+  margin: 106vw auto 0;
+}
+
+.car-lease02__box02-text03 {
+  font-weight: bold;
+  font-size: 2.7vw;
+  line-height: 1.6;
+  text-align: center;
+  color: #fff;
+  margin-top: 1vw;
+}
+
+.car-lease02__box02-purchase-btn {
+  width: 57.2vw;
+  height: 8.1vw;
+  background: transparent;
+  border: 1px solid #fff;
+  font-weight: bold;
+  font-size: 3.4vw;
+  text-align: center;
+  color: #fff;
+  display: block;
+  line-height: 2.4;
+  margin: 0 auto 5vw;
+}
+
+.car-lease02__box02-mylease-btn {
+  width: 100%;
+  height: 13vw;
+  background: #014ab0;
+  font-weight: bold;
+  font-size: 4vw;
+  text-align: center;
+  color: #fff;
+  display: block;
+  line-height: 3.6;
+  margin: 10.4vw 0 5.4vw;
+}
+
+.car-lease02__box02-purchase-set,
+.car-lease02__box02-mylease-set {
+  width: 86vw;
+}
+
+.car-lease02__box02-purchase-and-mylease {
+  display: flex;
+  justify-content: center;
+  margin-top: 9vw;
+  flex-direction: column;
+  align-items: center;
+}
+
+.car-lease02__box02-purchase-img,
+.car-lease02__box02-mylease-img {
+  width: 68vw;
+  margin: 0vw auto;
+}
+
+.car-lease02__box02-mylease-img {padding-bottom: 9vw;}
+
+.car-lease02__box03 {
+  width: 94%;
+  height: auto;
+  background:repeating-linear-gradient(-135deg,#3FA8B9,#3FA8B9 5%,transparent 0, transparent 10%) #39A5B7;
+  margin: 0vw auto 18vw;
+}
+
+.car-lease02__box03-text01 {
+  font-weight: bold;
+  font-size: 6.3vw;
+  line-height: 1.6;
+  text-align: center;
+  color: #fff;
+  padding-top: 17vw;
+}
+.car-lease02__box03-text02 {
+  font-weight: bold;
+  font-size: 6.1vw;
+  line-height: 1.6;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 5vw;
+  width: 54vw;
+  margin: auto;
+}
+.car-lease02__box03-text03 {font-weight: bold;font-size: 3.5vw;line-height: 1.8;text-align: center;color: #fff;width: 82vw;margin: auto;}
+.car-lease02__box03-group {
+  display: grid;
+  grid-template-columns: 76vw;
+  justify-content: center;
+  margin: 8vw auto 0;
+  width: 100%;
+  gap: 0;
+}
+.car-lease02__box03-transfer-text,
+.car-lease02__box03-re-lease-text,
+.car-lease02__box03-purchase-text,
+.car-lease02__box03-return-text {
+  width: 99%;
+  font-weight: bold;
+  font-size: 3.6vw;
+  line-height: 1.6;
+  text-align: left;
+  color: #fff;
+  margin-left: 2.3vw;
+  margin-top: 3vw;
+}
+
+.car-lease02__box03-transfer-set,
+.car-lease02__box03-re-lease-set,
+.car-lease02__box03-purchase-set,
+.car-lease02__box03-return-set {
+  width: 71vw;
+}
+
+.car-lease02__box03-return-set {
+  padding: 4.7vw 0 8vw;
+}
+.car-lease02__box03-transfer-img,
+.car-lease02__box03-re-lease-img,
+.car-lease02__box03-purchase-img,
+.car-lease02__box03-return-img {
+  width: 100%;
+}
+
+.car-lease02__box03-re-lease-img {
+  margin-top: 6vw;
+}
+
+.car-lease02__text-out {
+  font-weight: bold;
+  font-size: 2.7vw;
+  text-align: left;
+  color: #fff;
+  margin: 0 auto 0;
+  width: 80vw;
+  padding-bottom: 12vw;
+}
+
+/* テキストテステキストデテキスト
+---------------------------------------------------------*/
+
+.merit-and-demerit__set {
+  display: flex;
+  justify-content: center;
+  gap: 9.3vw;
+  flex-wrap: wrap;
+}
+
+.merit-and-demerit {
+  font-weight: bold;
+  font-size: 6.6vw;
+  line-height: 1.6;
+  text-align: center;
+  color: #000;
+  margin-bottom: 4.5vw;
+}
+
+.merit__text01,
+.demerit__text01 {
+  font-weight: bold;
+  font-size: 4.4vw;
+  text-align: center;
+  color: #fff;
+  margin: 5vw auto 6vw;
+  position: relative;
+}
+
+.merit__text01 {
+  width: 19vw;
+}
+
+.demerit__text01 {
+  width: 23vw;
+}
+
+.merit__border,
+.demerit__border {
+  width: 19vw;
+  background-color: #ff656d;
+  height: 1.5vw;
+  display: block;
+  position: absolute;
+  bottom: -6px;
+}
+
+.demerit__border {
+  width: 24.1vw;
+  left: -1vw;
+}
+  
+.merit__group {
+  width: 89vw;
+  background: #39a5b7;
+  border: 1vw solid #2090a4;
+  padding-bottom: 9.2vw;
+}
+
+.demerit__group {
+  width: 89vw;
+  background: #779a9f;
+  border: 1vw solid #6f9298;
+  padding-bottom: 11vw;
+}
+
+
+.merit-check,
+.demerit-check {
+  margin-right: 4vw;
+  width: 6vw;
+  height: auto;
+}
+
+.check-mark {
+  font-weight: bold;
+  font-size: 3.7vw;
+  line-height: 1.7;
+  text-align: left;
+  color: #fff;
+  width: 100%;
+}
+
+.merit__text-group,
+.demerit__text-group {
+  display: flex;
+  width: 75.8vw;
+  border-bottom: 1px dotted #fff;
+  align-items: center;
+  padding-bottom: 2vw;
+  margin-left: 6vw;
+}
+
+.merit__text-group:nth-child(n+2),
+.demerit__text-group:nth-child(n+2) {
+  margin-top: 2.9vw;
+}
+
+
+.merit-and-demerit__btn01-sp {
+  display: block;
+  margin: 3vw 0 0 7vw;
+  width: 80vw;
+}
+
+/* テキストテキストテス特徴
+---------------------------------------------------------*/
+.feature {
+  max-width: 1120px;
+  margin: auto;
+}
+.feature__title01 {
+  font-weight: bold;
+  font-size: 6.6vw;
+  line-height: 1.3;
+  text-align: center;
+  color: #000;
+  width: 63vw;
+  margin: 14vw auto 5vw;
+}
+
+.feature__title01-size {
+  font-size: 4.3vw;
+}
+
+/* 4キステキストテからテキス
+---------------------------------------------------------*/
+
+.feature__title02 {
+  font-weight: bold;
+  font-size: 4vw;
+  line-height: 1.7;
+  text-align: center;
+  color: #2588bb;
+  width: 95vw;
+  height: 28vw;
+  background: #fff;
+  border: 0.6vw solid #2588bb;
+  margin: 0 auto 0;
+  padding: 4vw 15vw 0;
+}
+
+.feature__attention {
+  color: #FF656D;
+}
+
+.feature__text01 {
+  font-weight: bold;
+  font-size: 3.7vw;
+  line-height: 1.6;
+  text-align: center;
+  color: #000;
+  width: 62.5vw;
+  margin: 8vw auto 0;
+}
+
+.future__car-img01-sp {
+  display: block;
+  margin: 7vw auto 0;
+  width: 90vw;
+  height: auto;
+}
+
+.feature__text02 {
+  margin-left: 5vw;
+  margin-top: 1.6vw;
+  font-size: 2.6vw;
+}
+
+/* テキストテテテキスト！テキステキストテキテキス
+---------------------------------------------------------*/
+
+.feature__title03 {
+  font-weight: bold;
+  font-size: 4vw;
+  line-height: 1.6;
+  text-align: center;
+  color: #2588bb;
+  width: 95vw;
+  height: 22vw;
+  background: #fff;
+  border: 0.6vw solid #2588bb;
+  margin: 8vw auto 6vw;
+  padding: 4vw 22.3vw 0;
+}
+
+.feature__text03,
+.feature__text04 {
+  font-weight: bold;
+  font-size: 3.7vw;
+  line-height: 1.6;
+  text-align: center;
+  color: #000;
+  margin: auto;
+}
+
+.feature__text03 {
+  width: 58vw;
+}
+
+.feature__text04 {
+  width: 66vw;
+}
+
+.feature__maintenance-pack {
+  display: flex;
+  margin-top: 7vw;
+  gap: 7vw;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature__maintenance-pack-item01-sp,
+.feature__maintenance-pack-item02-sp,
+.feature__maintenance-pack-item03-sp {
+  width: 84vw;
+}
+
+.feature__text-refueling {
+  font-weight: bold;
+  font-size: 2.7vw;
+  text-align: left;
+  color: #000;
+  margin: 4.2vw 0 9vw 8vw;
+}
+
+/* テキス200店鋪ステキストテキストテストア、...
+---------------------------------------------------------*/
+
+.feature__title04 {
+  font-weight: bold;
+  font-size: 4vw;
+  line-height: 1.7;
+  text-align: center;
+  color: #2588bb;
+  width: 94vw;
+  height: 29vw;
+  background: #fff;
+  border: 0.6vw solid #2588bb;
+  margin: 0 auto 0;
+  padding-top: 4vw;
+}
+
+.feature__text05 {
+  font-weight: bold;
+  font-size: 5.1vw;
+  line-height: 1.6;
+  color: #fff;
+  text-align: center;
+}
+
+.feature__pc-text01,
+.feature__pc-text02 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #2588bb;
+}
+
+.feature__pc-text01 {
+  text-align: right;
+}
+
+.feature__pc-text02 {
+  margin: 171vw 0 9px;
+}
+
+.feature__text06 {
+  width: 70vw;
+  font-weight: bold;
+  font-size: 3.5vw;
+  line-height: 1.7;
+  text-align: left;
+  color: #fff;
+  padding-top: 4vw;
+  margin: auto;
+}
+
+.feature__block01 {
+  width: 85vw;
+  background: #2588bb;
+  position: relative;
+  margin: 25vw auto 0;
+  display: flex;
+  justify-content: unset;
+  padding-bottom: 80px;
+  flex-direction: column;
+}
+
+.feature__block02 {
+  width: 87vw;
+  height: auto;
+  background: #0090ae;
+  position: relative;
+  margin: 22vw auto 0;
+}
+
+.feature__block01-img {
+  position: absolute;
+  top: -17vw;
+  right: 0;
+  width: 83vw;
+}
+
+.feature__block02-img {
+  position: absolute;
+  top: -17.2vw;
+  right: 0;
+  width: 85vw;
+}
+
+.feature__block01-text-set {
+  width: 86vw;
+  padding-top: 34.4vw;
+  margin: 0 auto 0;
+}
+
+.feature__block02-text-set {
+  width: 80vw;
+  padding: 32vw 0 12vw;
+  margin: auto;
+}
+
+/* テキステテキストテ！
+---------------------------------------------------------*/
+.popular-car {
+  width: 100%;
+  height: auto;
+  padding-bottom: 8vw;
+}
+.popular-car-ranking {
+  position: relative;
+  margin: 11vw auto 0;
+  max-width: unset;
+}
+
+.popular-car__swiper {
+  position: relative;
+}
+
+.popular-car-ranking__title {
+  font-weight: bold;
+  font-size: 7vw;
+  line-height: 1.6;
+  text-align: center;
+  color: #000;
+  margin-left: 0;
+  padding: 21vw 0 2vw;
+}
+
+.popular-car-ranking__crown {
+  position: absolute;
+  top: 7.8vw;
+  display: block;
+  left: 44vw;
+  width: 12vw;
+}
+
+.popular-car-ranking__btn-sp {
+    width: 79vw;
+    margin: 9.3vw 0 0 8vw;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  display: block;
+  visibility: visible;
+  position: absolute;
+  top: 0vw;
+  font-size: 2.1vw;
+  font-weight: bolder;
+  color: #707070;
+}
+
+.swiper-button-prev:after {
+  left: 92vw;
+}
+
+.swiper-button-next:after {
+  right: 0vw;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  visibility: hidden;
+  position: absolute;
+  top: -29vw;
+}
+
+.swiper {
+  width: 100%;
+  height: auto;
+  margin: unset;
+}
+
+.swiper__gage {
+  justify-content: center;
+  display: flex;
+  gap: 3.8vw;
+  margin-top: 3vw;
+}
+
+.swiper__gage-item {
+  width: 2.3vw;
+  height: 2.3vw;
+  display: block;
+  background: #707070;
+}
+
+.swiper__gage-item:first-child {
+  background-color: #FF656D;
+}
+/* テキスまでテキス
+---------------------------------------------------------*/
+
+.contract {
+  max-width: unset;
+  margin: auto;
+  padding-top: 13vw;
+}
+.contract__title {
+  font-weight: bold;
+  font-size: 6.7vw;
+  line-height: 1.6;
+  text-align: center;
+  color: #000;
+  margin: 0vw auto 2vw;
+}
+
+.contract__text-group {
+  width: 94vw;
+  margin: 0 auto 14px;
+}
+.contract__text01,
+.contract__text02,
+.contract__text03,
+.contract__text04 {
+  font-weight: bold;
+  font-size: 4vw;
+  padding-top: 8.1vw;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.contract__text-set01,
+.contract__text-set02,
+.contract__text-set03,
+.contract__text-set04 {
+  width: 100%;
+  height: 17vw;
+  margin: 0 auto;
+  background-size: cover;
+}
+
+.contract__text-set01 {
+  background-image: url(../images/step01-sp.png);
+  position: relative;
+}
+
+.contract__text-set02 {
+  background-image: url(../images/step02-sp.png);
+}
+
+.contract__text-set03 {
+  background-image: url(../images/step03-sp.png);
+}
+
+.contract__text-set04 {
+  background-image: url(../images/step04-sp.png);
+}
+
+.step01-speech-bubble {
+  position: absolute;
+  top: -3.9vw;
+  right: -3vw;
+  width: 22.6vw;
+}
+
+.customer-voice__set {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.customer-voice__text-set-title01 {
+  font-weight: bold;
+  font-size: 3.2vw;
+  text-align: left;
+  color: #fff;
+  width: 27.8vw;
+  height: auto;
+  background: #b79e3e;
+  margin: 0 auto;
+  padding: 0.5vw 2.6vw;
+}
+
+.customer-voice__text-set-title02 {
+  font-weight: bold;
+  font-size: 5.6vw;
+  text-align: center;
+  border-bottom: 0.4vw solid #000;
+  margin: 3vw 0 3.9vw;
+  padding-bottom: 0.6vw;
+  width: 69.2vw;
+}
+
+.customer-voice__text-set-title02-text02 {
+  width: 76vw;
+}
+
+.customer-voice__text-set01-text {
+  font-weight: bold;
+  font-size: 3.5vw;
+  line-height: 1.6;
+  text-align: center;
+  color: #6d6d6d;
+}
+
+.customer-voice__text-reason {
+  width: 90vw;
+  border: 0.6vw solid #eee;
+  margin: 6.2vw auto 10vw;
+  padding: 6vw 4.5vw 6vw;
+  font-size: 3.5vw;
+  line-height: 1.7;
+  font-weight: bold;
+}
+
+.customer-voice__group {
+  max-width: unset;
+  margin: auto;
+}
+
+.customer-voice__title {
+  font-weight: bold;
+  font-size: 6.7vw;
+  text-align: center;
+  margin: 19.7vw 0 6vw;
+}
+
+.customer-voice__img {
+  width: 55vw;
+}
+
+.customer-voice__text-set {
+  margin: 7vw auto 0;
+}
+
+.between-lines {
+  padding-bottom: 6vw;
+}
+
+.customer-voice__group:nth-child(odd) .customer-voice__set {
+  flex-direction: column;
+}
+
+.customer-voice__group:nth-child(odd) .customer-voice__text-set {
+  margin: 22px 0 0;
+}
+
+.customer-voice__group:nth-child(n+3) {
+  padding-top: 4px;
+}
+/* テキストテキス
+---------------------------------------------------------*/
+
+.faq {
+  max-width: 800px;
+  margin: auto;
+}
+.faq__title {
+  font-weight: bold;
+  font-size: 6.6vw;
+  text-align: center;
+  color: #000;
+  padding: 13vw 12.7vw 4vw;
+}
+
+.faq__group {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+.faq__Q01-img-sp {
+  margin: 7vw auto 0;
+  width: 93vw;
+}
+
+.faq__Q02-img-sp01 {margin: 0 auto;width: 93vw;}
+
+.faq__Q01-text {
+  position: absolute;
+  top: 4.7vw;
+  left: 19vw;
+  font-weight: bold;
+  font-size: 3.8vw;
+  color: #000;
+  width: 73vw;
+}
+
+.faq__Q01-img-sp02 {
+  width: 93vw;
+  margin: 7vw auto 0;
+}
+
+.faq__A01-sp {
+  width: 93vw;
+  margin: 0vw auto 0;
+}
+
+.faq__A01-text {
+  position: absolute;
+  left: 21vw;
+  font-size: 3.2vw;
+  padding-right: 8vw;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.faq__A01-text-sp {
+  position: absolute;
+  left: 21vw;
+  font-size: 3.2vw;
+  padding-right: 8vw;
+  font-weight: bold;
+  line-height: 1.5;
+  bottom: 6vw;
+}
+
+.faq__A01-text01 {
+  bottom: 4vw;
+}
+
+.faq__A01-text02 {
+  bottom: 30px;
+}
+
+.faq__A01-text03 {
+  bottom: 33px;
+}
+
+.faq__A01-text-center {
+  bottom: 45px;
+}
+
+.faq__A01sp {
+  width: 93vw;
+  margin: 0 auto;
+}
+/* テキステキストテキストテテキストテキスト
+---------------------------------------------------------*/
+
+.simulate {
+  background-image: url(../images/bottombg-sp.jpg);
+  width: 100%;
+  height: 133vw;
+  background-size: cover;
+  margin-top: 15vw;
+}
+
+.simulate-title {
+  font-weight: bold;
+  font-size: 6.4vw;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.49);
+  padding-top: 42vw;
+  padding-bottom: 0;
+  width: 80vw;
+  margin: auto;
+  position: relative;
+}
+
+.simulate-title::before {
+  content: "";
+  padding-left: unset;
+  position: absolute;
+  bottom: 2vw;
+  left: -4.7vw;
+  background-image: url(../images/simulate-left.png);
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  background-size: contain;
+}
+
+.simulate-title::after {
+ content: "";
+ padding-left: unset;
+ position: absolute;
+ bottom: 2vw;
+ right: -6.4vw;
+ background-image: url(../images/simulate-right.png);
+ display: block;
+ width: 8vw;
+ height: 8vw;
+ background-size: contain;
+}
+
+.simulate__btn-sp {
+    margin: 3vw 0 0 8vw;
+    width: 79vw;
+}
+
+/* リンクボタン
+---------------------------------------------------------*/
+.link-btn {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3vw;
+  margin: 5.6vw 0 0;
+}
+
+.inqury-btn-sp {
+  width: 95vw;
+}
+
+.customer-center-btn-sp {
+  width: 95vw;
+}
+
+/* フッター
+---------------------------------------------------------*/
+
+.footer-log {
+  display: block;
+  margin: 25vw 0 0 11vw;
+  width: 64vw;
+}
+
+.footer-set {
+  display: flex;
+  margin: 10.3vw auto 0;
+  max-width: unset;
+  justify-content: flex-start;
+  height: auto;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 79vw;
+  gap: 6.2vw 3vw;
+  padding: 0;
+}
+
+.footer-set li {
+  border-right: 0.2vw solid #707070;
+  padding-right: unset;
+  height: 3.9vw;
+}
+
+.footer-set li:nth-child(2n) {
+  width: 49%;
+}
+
+.footer-set li:nth-child(2n+1) {
+  width: 47%;
+}
+
+.footer-set li:last-child {
+  border-right: 0.2vw solid #707070;
+}
+
+.footer-item-mark::after {padding-left: 2vw;}
+
+.footer-item {font-weight: bold;font-size: 3vw;color: #000;}
+
+small {
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  font-size: 2.7vw;
+  color: #000;
+  margin: 15vw auto;
+  padding-bottom: 8vw;
+}
+
+
+
+}
+
+
+/* スクロールイベント */
+.appearance {
+  position: fixed;
+  top: 0;
+  background: #fff;
+  height: 15vw;
+  margin: 0;
+  width: 100%;
+  padding: 2vw;
+  z-index: 100;
+}

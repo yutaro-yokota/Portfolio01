@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap');
+
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,*::before,*::after{box-sizing:border-box}*{margin:0}html,body{height:100%}body{line-height:1.5;-webkit-font-smoothing:antialiased}img,picture,video,canvas,svg{display:block;}input,button,textarea,select{font:inherit}p,h1,h2,h3,h4,h5,h6{overflow-wrap:break-word}#root,#__next{isolation:isolate}
+
+/* 共通 ここから
+---------------------------------------------------------*/
+* {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+
+/* メール送信 ここから
+---------------------------------------------------------*/
+
+.mail {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #302b2b;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mail__container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #dbd9d9;
+  padding: 40px 20px 25px;
+  border-radius: 8px;
+}
+
+.mail__title {
+  font-size: 32px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.mail__text {
+  font-size: 24px;
+  text-align: center;
+  padding: 0 60px 25px;
+  border-bottom: 1px solid #333;
+}
+
+.mail__top {
+  text-decoration: none;
+  color: #fff;
+  background-color: #0757b2;
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: block;
+  text-align: center;
+  width: 300px;
+  margin: 25px auto 0;
+}
+
+.mail__top:hover {
+  opacity: .8;
+  transition: .3s;
+}
